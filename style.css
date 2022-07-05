@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Poppins:ital,wght@0,300;0,500;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,900;1,700&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flexible {
+    display: flex;
+}
+
+.half-width-left {
+    width: 45%;
+}
+
+.half-width-right {
+    width: 55%;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 14px 25px;
+    border-radius: 30px;
+    background-image: linear-gradient(to left, #14BAFC, #0388F6, #14BAFC);
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 42px -13px #0388F6;
+    transition: .6s;
+    background-size: 200%;
+}
+
+.btn:hover {
+    background-position: right;
+}
+
+span {
+    background: linear-gradient(90deg, #14BAFC, #0388F6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-area {
+    padding: 50px 0 50px 0;
+    border-top: 9px solid #0388F6;
+}
+
+.hero-item-left {
+    padding: 110px 0 40px 80px;
+
+}
+
+.hero-item-left h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    margin: 0;
+    font-weight: 700;
+    color: #4e4e4e;
+}
+
+.hero-item-left p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+    padding-right: 150px;
+    line-height: 25px;
+}
+
+.hero-item-right img {
+    width: 85%;
+}
