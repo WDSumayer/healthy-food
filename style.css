@@ -8,8 +8,17 @@ body {
     padding: 0;
 }
 
+section {
+    width: 100%;
+    overflow: hidden;
+}
+
 .d-flexible {
     display: flex;
+}
+
+.half-width {
+    width: 50%;
 }
 
 .half-width-left {
@@ -76,4 +85,42 @@ span {
 
 .hero-item-right img {
     width: 85%;
+}
+
+.about-area {
+    background-image: url(img/about-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 139px 0;
+}
+
+.about-item-left {}
+
+.about-item-left img {
+    width: 25%;
+    position: absolute;
+    bottom: 0;
+    left: 13%;
+}
+
+.about-item-right {
+    padding: 40px 0 40px 50px;
+}
+
+.about-item-right h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    margin: 0;
+    font-weight: 700;
+    color: #4e4e4e;
+}
+
+.about-item-right p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 160px;
+    line-height: 25px;
+    margin-bottom: 30px;
 }
